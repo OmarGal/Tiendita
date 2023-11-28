@@ -66,7 +66,7 @@ Module Module1
         End While
 
         If (prod = "") Then
-            MessageBox.Show("Producto con ID: " & Form2.TB_id_producto.Text & " no existe, intenta con otro ID", "Producto no existe", MessageBoxButtons.OK)
+            MessageBox.Show("Producto con ID: " & Form2.TB_id_producto.Text & " ndao existe, intenta con otro ID", "Producto no existe", MessageBoxButtons.OK)
             rd.Close()
             conn.Close()
             Form2.TB_id_producto.Text = ""

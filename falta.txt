@@ -1,0 +1,3 @@
+Formulario de Inventario
+Formulario de Consultas
+Formalario de Cajeros

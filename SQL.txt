@@ -1,0 +1,243 @@
+LastSessions<|||>1<|||>Rayito
+LastActiveSession<|||>1<|||>Rayito
+SessionManager_WindowWidth<|||>3<|||>780
+SessionManager_WindowLeft<|||>3<|||>328
+SessionManager_WindowTop<|||>3<|||>133
+ColWidths_connform.ListSessions<|||>1<|||>125,79,50,50,50,50,22
+ColsVisible_connform.ListSessions<|||>1<|||>0,1,4,6
+ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
+ColSort_connform.ListSessions<|||>1<|||>0,0
+ColWidths_frmTableEditor.listColumns<|||>1<|||>25,142,154,90,60,65,50,117,130,140,100,100
+ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
+ColSort_frmTableEditor.listColumns<|||>1<|||>-1,0
+ColWidths_frmTableEditor.treeIndexes<|||>1<|||>311,100,80,120
+ColsVisible_frmTableEditor.treeIndexes<|||>1<|||>0,1,2,3
+ColPositions_frmTableEditor.treeIndexes<|||>1<|||>0,1,2,3
+ColSort_frmTableEditor.treeIndexes<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listForeignKeys<|||>1<|||>197,80,100,80,80,80
+ColsVisible_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColPositions_frmTableEditor.listForeignKeys<|||>1<|||>0,1,2,3,4,5
+ColSort_frmTableEditor.listForeignKeys<|||>1<|||>-1,0
+ColWidths_frmTableEditor.listCheckConstraints<|||>1<|||>200,417
+ColsVisible_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColPositions_frmTableEditor.listCheckConstraints<|||>1<|||>0,1
+ColSort_frmTableEditor.listCheckConstraints<|||>1<|||>-1,0
+MainWinMaximized<|||>3<|||>1
+MainWinOnMonitor<|||>3<|||>0
+ColWidths_MainForm.ListDatabases<|||>1<|||>150,80,50,50,50,50,50,50,50,50,120
+ColsVisible_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColPositions_MainForm.ListDatabases<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10
+ColSort_MainForm.ListDatabases<|||>1<|||>0,0
+ColWidths_MainForm.ListVariables<|||>1<|||>160,200,428
+ColsVisible_MainForm.ListVariables<|||>1<|||>0,1,2
+ColPositions_MainForm.ListVariables<|||>1<|||>0,1,2
+ColSort_MainForm.ListVariables<|||>1<|||>0,0
+ColWidths_MainForm.ListStatus<|||>1<|||>160,428,100,100
+ColsVisible_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColPositions_MainForm.ListStatus<|||>1<|||>0,1,2,3
+ColSort_MainForm.ListStatus<|||>1<|||>0,0
+ColWidths_MainForm.ListProcesses<|||>1<|||>70,80,80,80,80,50,50,302
+ColsVisible_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColPositions_MainForm.ListProcesses<|||>1<|||>0,1,2,3,4,5,6,7
+ColSort_MainForm.ListProcesses<|||>1<|||>0,1
+ColWidths_MainForm.ListCommandStats<|||>1<|||>120,100,100,100,368
+ColsVisible_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColPositions_MainForm.ListCommandStats<|||>1<|||>0,1,2,3,4
+ColSort_MainForm.ListCommandStats<|||>1<|||>1,1
+ColWidths_MainForm.ListTables<|||>1<|||>120,70,70,120,120,70,100,50,70,70,70,70,70,90,120,70,70,70,50
+ColsVisible_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,18
+ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+ColSort_MainForm.ListTables<|||>1<|||>0,0
+CreateDbCollation<|||>1<|||>armscii8_general_ci
+querymemoheight<|||>3<|||>293
+DateTimeEditor_CursorPos_Type4<|||>3<|||>8
+SessionManager_ListWidth<|||>3<|||>280
+sqloutheight<|||>3<|||>107
+FontSize<|||>3<|||>10
+DataFontSize<|||>3<|||>15
+ThemePreviewWidth<|||>3<|||>501
+ThemePreviewHeight<|||>3<|||>296
+ThemePreviewTop<|||>3<|||>268
+ThemePreviewLeft<|||>3<|||>327
+SQL Attr Comment Foreground<|||>3<|||>8023636
+SQL Attr Comment Background<|||>3<|||>536870911
+SQL Attr Comment Style<|||>3<|||>2
+SQL Attr ConditionalComment Foreground<|||>3<|||>12108397
+SQL Attr ConditionalComment Background<|||>3<|||>536870911
+SQL Attr ConditionalComment Style<|||>3<|||>2
+SQL Attr ConsoleOutput Foreground<|||>3<|||>536870911
+SQL Attr ConsoleOutput Background<|||>3<|||>536870911
+SQL Attr ConsoleOutput Style<|||>3<|||>5
+SQL Attr DataType Foreground<|||>3<|||>15372999
+SQL Attr DataType Background<|||>3<|||>536870911
+SQL Attr DataType Style<|||>3<|||>1
+SQL Attr DefaultPackages Foreground<|||>3<|||>536870911
+SQL Attr DefaultPackages Background<|||>3<|||>536870911
+SQL Attr DefaultPackages Style<|||>3<|||>1
+SQL Attr DelimitedIdentifier Foreground<|||>3<|||>16757122
+SQL Attr DelimitedIdentifier Background<|||>3<|||>536870911
+SQL Attr DelimitedIdentifier Style<|||>3<|||>0
+SQL Attr Exception Foreground<|||>3<|||>536870911
+SQL Attr Exception Background<|||>3<|||>536870911
+SQL Attr Exception Style<|||>3<|||>2
+SQL Attr Function Foreground<|||>3<|||>14929603
+SQL Attr Function Background<|||>3<|||>536870911
+SQL Attr Function Style<|||>3<|||>1
+SQL Attr Identifier Foreground<|||>3<|||>16757122
+SQL Attr Identifier Background<|||>3<|||>536870911
+SQL Attr Identifier Style<|||>3<|||>0
+SQL Attr Key Foreground<|||>3<|||>14929603
+SQL Attr Key Background<|||>3<|||>536870911
+SQL Attr Key Style<|||>3<|||>1
+SQL Attr Number Foreground<|||>3<|||>7361535
+SQL Attr Number Background<|||>3<|||>536870911
+SQL Attr Number Style<|||>3<|||>0
+SQL Attr PLSQL-ReservedWord Foreground<|||>3<|||>536870911
+SQL Attr PLSQL-ReservedWord Background<|||>3<|||>536870911
+SQL Attr PLSQL-ReservedWord Style<|||>3<|||>1
+SQL Attr ProcName Foreground<|||>3<|||>536870911
+SQL Attr ProcName Background<|||>3<|||>536870911
+SQL Attr ProcName Style<|||>3<|||>0
+SQL Attr Space Foreground<|||>3<|||>536870911
+SQL Attr Space Background<|||>3<|||>536870911
+SQL Attr Space Style<|||>3<|||>0
+SQL Attr SQLPlus-Command Foreground<|||>3<|||>536870911
+SQL Attr SQLPlus-Command Background<|||>3<|||>536870911
+SQL Attr SQLPlus-Command Style<|||>3<|||>1
+SQL Attr String Foreground<|||>3<|||>8906947
+SQL Attr String Background<|||>3<|||>536870911
+SQL Attr String Style<|||>3<|||>0
+SQL Attr Symbol Foreground<|||>3<|||>12897152
+SQL Attr Symbol Background<|||>3<|||>536870911
+SQL Attr Symbol Style<|||>3<|||>0
+SQL Attr TableName Foreground<|||>3<|||>6911735
+SQL Attr TableName Background<|||>3<|||>536870911
+SQL Attr TableName Style<|||>3<|||>0
+SQL Attr Variable Foreground<|||>3<|||>7064575
+SQL Attr Variable Background<|||>3<|||>536870911
+SQL Attr Variable Style<|||>3<|||>0
+SQLColMatchingBraceForeground<|||>1<|||>$0028EFFF
+SQLColMatchingBraceBackground<|||>1<|||>$004D513B
+Theme<|||>1<|||>Windows10 SlateGray
+FieldColor_Numeric<|||>3<|||>16750469
+FieldColor_Real<|||>3<|||>13663613
+FieldColor_Text<|||>3<|||>7591283
+FieldColor_Binary<|||>3<|||>13203071
+FieldColor_Datetime<|||>3<|||>7566281
+FieldColor_Spatial<|||>3<|||>13553267
+FieldColor_Other<|||>3<|||>7586241
+FieldEditor_Set<|||>3<|||>1
+SQLFile0<|||>1<|||>C:\Users\omar\Desktop\Heidi\Backups\query-tab-2023-10-23_17-38-08-352.sql
+MemoEditorWidth<|||>3<|||>501
+MemoEditorHeight<|||>3<|||>201
+Servers\Proyecto\SessionCreated<|||>1<|||>2023-10-23 17:30:54
+Servers\Proyecto\Host<|||>1<|||>127.0.0.1
+Servers\Proyecto\WindowsAuth<|||>3<|||>0
+Servers\Proyecto\CleartextPluginEnabled<|||>3<|||>0
+Servers\Proyecto\User<|||>1<|||>root
+Servers\Proyecto\Password<|||>1<|||>333435362
+Servers\Proyecto\LoginPrompt<|||>3<|||>0
+Servers\Proyecto\Port<|||>1<|||>3306
+Servers\Proyecto\NetType<|||>3<|||>0
+Servers\Proyecto\Compressed<|||>3<|||>0
+Servers\Proyecto\LocalTimeZone<|||>3<|||>0
+Servers\Proyecto\QueryTimeout<|||>3<|||>30
+Servers\Proyecto\KeepAlive<|||>3<|||>20
+Servers\Proyecto\FullTableStatus<|||>3<|||>1
+Servers\Proyecto\Databases<|||>1<|||>mysql;Ejemplo;ejemplo
+Servers\Proyecto\Library<|||>1<|||>libmariadb.dll
+Servers\Proyecto\Comment<|||>1<|||>
+Servers\Proyecto\StartupScriptFilename<|||>1<|||>
+Servers\Proyecto\TreeBackground<|||>3<|||>536870911
+Servers\Proyecto\SSHtunnelActive<|||>3<|||>0
+Servers\Proyecto\SshExecutable<|||>1<|||>
+Servers\Proyecto\SSHtunnelHost<|||>1<|||>
+Servers\Proyecto\SSHtunnelHostPort<|||>3<|||>22
+Servers\Proyecto\SSHtunnelUser<|||>1<|||>
+Servers\Proyecto\SSHtunnelPassword<|||>1<|||>2
+Servers\Proyecto\SSHtunnelTimeout<|||>3<|||>4
+Servers\Proyecto\SSHtunnelPrivateKey<|||>1<|||>
+Servers\Proyecto\SSHtunnelPort<|||>3<|||>3307
+Servers\Proyecto\SSL_Active<|||>3<|||>0
+Servers\Proyecto\SSL_Key<|||>1<|||>
+Servers\Proyecto\SSL_Cert<|||>1<|||>
+Servers\Proyecto\SSL_CA<|||>1<|||>
+Servers\Proyecto\SSL_Cipher<|||>1<|||>
+Servers\Proyecto\IgnoreDatabasePattern<|||>1<|||>
+Servers\Proyecto\LogFileDdl<|||>3<|||>0
+Servers\Proyecto\LogFileDml<|||>3<|||>0
+Servers\Proyecto\LogFilePath<|||>1<|||>C:\Users\omar\AppData\Roaming\HeidiSQL\Logs\%session\%db\%y%m%d.sql
+Servers\Proyecto\ServerVersionFull<|||>1<|||>8.1.0 - MySQL Community Server - GPL
+Servers\Proyecto\ConnectCount<|||>3<|||>3
+Servers\Proyecto\ServerVersion<|||>3<|||>80100
+Servers\Proyecto\LastConnect<|||>1<|||>2023-10-23 17:38:10
+Servers\Proyecto\lastUsedDB<|||>1<|||>Ejemplo
+Servers\Proyecto\QueryHistory\1<|||>1<|||>2023-10-23 18:10:08|Ejemplo|0|INSERT INTO `Ejemplo`.`casos` (`IDcaso`, `FechaInicio`, `Caso`, `Costo`, `FechaFin`, `IDcliente`, `IDabogados`) VALUES (2, '2023-08-23', 'Asalto', 2000, '2023-10-23', 2, 5);
+Servers\Proyecto\QueryHistory\2<|||>1<|||>2023-10-23 18:24:58|Ejemplo|0|SELECT * FROM casos
+Servers\Proyecto\QueryHistory\4<|||>1<|||>2023-10-23 18:27:00|Ejemplo|0|SELECT * FROM casos WHERE IDabogados=1
+Servers\Proyecto\QueryHistory\3<|||>1<|||>2023-10-23 18:30:23|Ejemplo|0|SELECT Nombre FROM clientes
+Servers\Proyecto\QueryHistory\7<|||>1<|||>2023-10-23 18:38:42|Ejemplo|0|SELECT A.IDcaso, A.FechaInicio,A.IDcliente,B.Nombre,A.IDabogados,B.Nombre from casos A, clientes B WHERE A.IDcliente=B.IDcliente
+Servers\Proyecto\QueryHistory\6<|||>1<|||>2023-10-23 18:39:31|Ejemplo|0|SELECT A.IDcaso, A.FechaInicio,A.IDcliente,B.Nombre,A.IDabogados from casos A, clientes B WHERE A.IDcliente=B.IDcliente
+Servers\Proyecto\QueryHistory\5<|||>1<|||>2023-10-23 18:40:17|Ejemplo|0|SELECT A.IDcaso,A.Caso,A.FechaInicio,A.IDcliente,B.Nombre,A.IDabogados from casos A, clientes B WHERE A.IDcliente=B.IDcliente
+Servers\Proyecto\QueryHistory\8<|||>1<|||>2023-10-23 18:42:35|Ejemplo|0|SELECT A.IDcaso,A.Caso,A.FechaInicio,A.IDcliente,B.Nombre,A.IDabogados,C.Nombre from casos A, clientes B, abogados C WHERE A.IDcliente=B.IDcliente
+Servers\Proyecto\QueryHistory\9<|||>1<|||>2023-10-23 18:43:28|Ejemplo|0|SELECT A.IDcaso,A.Caso,A.FechaInicio,A.IDcliente,B.Nombre,A.IDabogados,C.Nombre from casos A, clientes B, abogados C WHERE A.IDcliente=B.IDcliente AND A.IDabogados=C.IDabogados
+Servers\Proyecto\QueryHistory\10<|||>1<|||>2023-10-23 18:44:12|Ejemplo|0|SELECT A.IDcaso,A.Caso,A.FechaInicio,A.IDcliente,B.Nombre,A.IDabogados,C.Nombre from casos A, clientes B, abogados C WHERE A.IDcliente=B.IDcliente AND A.IDabogados=C.IDabogados ORDER BY A.FechaInicio
+Servers\Proyecto\QueryHistory\11<|||>1<|||>2023-10-23 18:44:53|Ejemplo|0|SELECT A.IDcaso,A.Caso,A.FechaInicio,A.IDcliente,B.Nombre,A.IDabogados,C.Nombre,A.Costo from casos A, clientes B, abogados C WHERE A.IDcliente=B.IDcliente AND A.IDabogados=C.IDabogados ORDER BY A.FechaInicio
+Servers\Proyecto\QueryHistory\12<|||>1<|||>2023-10-23 18:46:56|Ejemplo|0|SELECT A.IDcaso,A.Caso,A.FechaInicio,A.IDcliente,B.Nombre,A.IDabogados,C.Nombre,A.Costo from casos A, clientes B, abogados C WHERE A.IDcliente=B.IDcliente AND A.IDabogados=C.IDabogados ORDER BY A.FechaInicio,A.Costo
+Servers\Rayito\SessionCreated<|||>1<|||>2023-10-25 17:15:48
+Servers\Rayito\Host<|||>1<|||>127.0.0.1
+Servers\Rayito\WindowsAuth<|||>3<|||>0
+Servers\Rayito\CleartextPluginEnabled<|||>3<|||>0
+Servers\Rayito\User<|||>1<|||>root
+Servers\Rayito\Password<|||>1<|||>1
+Servers\Rayito\LoginPrompt<|||>3<|||>0
+Servers\Rayito\Port<|||>1<|||>3306
+Servers\Rayito\NetType<|||>3<|||>0
+Servers\Rayito\Compressed<|||>3<|||>0
+Servers\Rayito\LocalTimeZone<|||>3<|||>0
+Servers\Rayito\QueryTimeout<|||>3<|||>30
+Servers\Rayito\KeepAlive<|||>3<|||>20
+Servers\Rayito\FullTableStatus<|||>3<|||>1
+Servers\Rayito\Databases<|||>1<|||>
+Servers\Rayito\Library<|||>1<|||>libmariadb.dll
+Servers\Rayito\Comment<|||>1<|||>
+Servers\Rayito\StartupScriptFilename<|||>1<|||>
+Servers\Rayito\TreeBackground<|||>3<|||>536870911
+Servers\Rayito\SSHtunnelActive<|||>3<|||>0
+Servers\Rayito\SshExecutable<|||>1<|||>
+Servers\Rayito\SSHtunnelHost<|||>1<|||>
+Servers\Rayito\SSHtunnelHostPort<|||>3<|||>22
+Servers\Rayito\SSHtunnelUser<|||>1<|||>
+Servers\Rayito\SSHtunnelPassword<|||>1<|||>7
+Servers\Rayito\SSHtunnelTimeout<|||>3<|||>4
+Servers\Rayito\SSHtunnelPrivateKey<|||>1<|||>
+Servers\Rayito\SSHtunnelPort<|||>3<|||>3307
+Servers\Rayito\SSL_Active<|||>3<|||>0
+Servers\Rayito\SSL_Key<|||>1<|||>
+Servers\Rayito\SSL_Cert<|||>1<|||>
+Servers\Rayito\SSL_CA<|||>1<|||>
+Servers\Rayito\SSL_Cipher<|||>1<|||>
+Servers\Rayito\IgnoreDatabasePattern<|||>1<|||>
+Servers\Rayito\LogFileDdl<|||>3<|||>0
+Servers\Rayito\LogFileDml<|||>3<|||>0
+Servers\Rayito\LogFilePath<|||>1<|||>C:\Users\omar\AppData\Roaming\HeidiSQL\Logs\%session\%db\%y%m%d.sql
+Servers\Rayito\ServerVersionFull<|||>1<|||>8.1.0 - MySQL Community Server - GPL
+Servers\Rayito\ConnectCount<|||>3<|||>18
+Servers\Rayito\ServerVersion<|||>3<|||>80100
+Servers\Rayito\LastConnect<|||>1<|||>2023-11-28 16:22:02
+Servers\Rayito\lastUsedDB<|||>1<|||>rayito
+Servers\Rayito\RefusedCount<|||>3<|||>8
+Servers\Rayito\autos|autos\Sort<|||>1<|||>0_IDAuto|
+Servers\Rayito\QueryHistory\1<|||>1<|||>2023-10-30 18:22:45|autos|0|INSERT INTO `autos`.`clientes` (`Nombre`, `RFC`, `Tel`) VALUES ('Blanca', 'ffsdf88948', '223546156');<{{{><}}}>INSERT INTO `autos`.`clientes` (`Nombre`, `RFC`, `Tel`) VALUES ('Carlos', 'sdfsd564', '22949169');<{{{><}}}>INSERT INTO `autos`.`clientes` (`Nombre`, `RFC`, `Tel`) VALUES ('Dana', 'gjchyf56', '2216513');<{{{><}}}>INSERT INTO `autos`.`clientes` (`Nombre`, `RFC`, `Tel`) VALUES ('Ernesto', 'arfweg5tr5', '22156156');<{{{><}}}>INSERT INTO `autos`.`clientes` (`Nombre`, `RFC`, `Tel`) VALUES ('Fiona', 'ergge4g5', '22996328');
+Servers\Rayito\QueryHistory\2<|||>1<|||>2023-10-30 18:32:10|autos|16|INSERT INTO `autos`.`rentas` (`FechaI`, `IDAuto`, `IDCliente`, `FechaF`) VALUES ('2023-05-15', 1, 2, '2023-05-30');<{{{><}}}>INSERT INTO `autos`.`rentas` (`FechaI`, `IDAuto`, `IDCliente`, `FechaF`) VALUES ('2023-02-06', 4, 1, '2023-02-20');<{{{><}}}>INSERT INTO `autos`.`rentas` (`FechaI`, `IDAuto`, `IDCliente`, `FechaF`) VALUES ('2023-03-30', 3, 5, '2023-04-06');<{{{><}}}>INSERT INTO `autos`.`rentas` (`FechaI`, `IDAuto`, `IDCliente`, `FechaF`) VALUES ('2023-07-10', 2, 4, '2023-07-19');
+Servers\Rayito\QueryHistory\4<|||>1<|||>2023-10-30 18:40:39|autos|0|SELECT A.IDAuto,A.Modelo,C.IDClientes,C.Nombre FROM autos A, clientes C WHERE A.IDAuto=IDAuto AND C.IDClientes=IDClientes
+Servers\Rayito\QueryHistory\5<|||>1<|||>2023-10-30 18:47:56|autos|0|SELECT A.IDAuto,A.Modelo,C.IDClientes,C.Nombre,R.FechaI, R.FechaF FROM autos A, clientes C, rentas R WHERE A.IDAuto=R.IDAuto AND C.IDClientes=R.IDClientes
+Servers\Rayito\QueryHistory\3<|||>1<|||>2023-10-31 11:26:52|rayito|0|INSERT INTO `rayito`.`clientes` (`IDCliente`, `Nombre`, `Descuento`) VALUES (2, 'Carolina Aguirre', 8);<{{{><}}}>INSERT INTO `rayito`.`clientes` (`IDCliente`, `Nombre`, `Descuento`) VALUES (3, 'Aurora Rivera', 15);<{{{><}}}>INSERT INTO `rayito`.`clientes` (`IDCliente`, `Nombre`, `Descuento`) VALUES (4, 'Roberto Pavon', 10);<{{{><}}}>INSERT INTO `rayito`.`clientes` (`IDCliente`, `Nombre`, `Descuento`) VALUES (5, 'Enrique Martinez', 20);
+Servers\Rayito\QueryHistory\6<|||>1<|||>2023-11-01 13:31:41|rayito|0|SELECT Producto FROM `rayito`.`productos`
+Servers\Rayito\QueryHistory\8<|||>1<|||>2023-11-01 13:33:02|rayito|16|SELECT Producto FROM `rayito`.`productos` WHERE Inventario>0
+Servers\Rayito\QueryHistory\7<|||>1<|||>2023-11-01 16:02:26|rayito|0|SELECT `IDProducto`, `Producto`, `Precio`, `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;
+Servers\Rayito\QueryHistory\9<|||>1<|||>2023-11-01 16:02:38|rayito|0|SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;
+Servers\Rayito\QueryHistory\11<|||>1<|||>2023-11-01 18:04:38|rayito|0|SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;<{{{><}}}>UPDATE `rayito`.`productos` SET Inventario=Inventario-1 WHERE  `IDProducto`=1;<{{{><}}}>SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;<{{{><}}}>UPDATE `rayito`.`productos` SET Inventario=5 WHERE `IDProducto`=1;
+Servers\Rayito\QueryHistory\12<|||>1<|||>2023-11-01 18:04:55|rayito|0|SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;<{{{><}}}>UPDATE `rayito`.`productos` SET Inventario=Inventario-1 WHERE  `IDProducto`=1;<{{{><}}}>SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;<{{{><}}}>UPDATE `rayito`.`productos` SET Inventario=45 WHERE `IDProducto`=1;
+Servers\Rayito\QueryHistory\13<|||>1<|||>2023-11-01 18:04:58|rayito|0|SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;<{{{><}}}>UPDATE `rayito`.`productos` SET Inventario=Inventario-1 WHERE  `IDProducto`=1;<{{{><}}}>SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;
