@@ -7,6 +7,7 @@ Public Class Form1
 
         TB_usuario.Text = "Cajero1"
         TB_contra.Text = "1234"
+        Form4.Show()
 
     End Sub
 

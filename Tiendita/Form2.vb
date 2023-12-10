@@ -25,7 +25,6 @@ Public Class Form2
     End Sub
     ' 
     Dim switch As Boolean = False
-
     Private Sub CB_cliente_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CB_cliente.SelectedIndexChanged
         If (switch = False) Then
             switch = True
