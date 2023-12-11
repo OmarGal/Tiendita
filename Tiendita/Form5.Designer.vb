@@ -26,9 +26,15 @@ Partial Class Form5
         PictureBox1 = New PictureBox()
         DG_ventas = New DataGridView()
         DG_ventasproductos = New DataGridView()
+        BT_ventas = New PictureBox()
+        BT_inv = New PictureBox()
+        BT_caja = New PictureBox()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(DG_ventas, ComponentModel.ISupportInitialize).BeginInit()
         CType(DG_ventasproductos, ComponentModel.ISupportInitialize).BeginInit()
+        CType(BT_ventas, ComponentModel.ISupportInitialize).BeginInit()
+        CType(BT_inv, ComponentModel.ISupportInitialize).BeginInit()
+        CType(BT_caja, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' PictureBox1
@@ -63,11 +69,47 @@ Partial Class Form5
         DG_ventasproductos.Size = New Size(417, 334)
         DG_ventasproductos.TabIndex = 2
         ' 
+        ' BT_ventas
+        ' 
+        BT_ventas.BackColor = Color.White
+        BT_ventas.Image = CType(resources.GetObject("BT_ventas.Image"), Image)
+        BT_ventas.Location = New Point(301, 664)
+        BT_ventas.Name = "BT_ventas"
+        BT_ventas.Size = New Size(105, 29)
+        BT_ventas.SizeMode = PictureBoxSizeMode.StretchImage
+        BT_ventas.TabIndex = 41
+        BT_ventas.TabStop = False
+        ' 
+        ' BT_inv
+        ' 
+        BT_inv.BackColor = Color.White
+        BT_inv.Image = CType(resources.GetObject("BT_inv.Image"), Image)
+        BT_inv.Location = New Point(167, 664)
+        BT_inv.Name = "BT_inv"
+        BT_inv.Size = New Size(114, 29)
+        BT_inv.SizeMode = PictureBoxSizeMode.StretchImage
+        BT_inv.TabIndex = 40
+        BT_inv.TabStop = False
+        ' 
+        ' BT_caja
+        ' 
+        BT_caja.BackColor = Color.White
+        BT_caja.Image = CType(resources.GetObject("BT_caja.Image"), Image)
+        BT_caja.Location = New Point(37, 664)
+        BT_caja.Name = "BT_caja"
+        BT_caja.Size = New Size(109, 29)
+        BT_caja.SizeMode = PictureBoxSizeMode.StretchImage
+        BT_caja.TabIndex = 39
+        BT_caja.TabStop = False
+        ' 
         ' Form5
         ' 
         AutoScaleMode = AutoScaleMode.None
         BackgroundImageLayout = ImageLayout.None
         ClientSize = New Size(1366, 705)
+        Controls.Add(BT_ventas)
+        Controls.Add(BT_inv)
+        Controls.Add(BT_caja)
         Controls.Add(DG_ventasproductos)
         Controls.Add(DG_ventas)
         Controls.Add(PictureBox1)
@@ -80,6 +122,9 @@ Partial Class Form5
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(DG_ventas, ComponentModel.ISupportInitialize).EndInit()
         CType(DG_ventasproductos, ComponentModel.ISupportInitialize).EndInit()
+        CType(BT_ventas, ComponentModel.ISupportInitialize).EndInit()
+        CType(BT_inv, ComponentModel.ISupportInitialize).EndInit()
+        CType(BT_caja, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -87,4 +132,7 @@ Partial Class Form5
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents DG_ventas As DataGridView
     Friend WithEvents DG_ventasproductos As DataGridView
+    Friend WithEvents BT_ventas As PictureBox
+    Friend WithEvents BT_inv As PictureBox
+    Friend WithEvents BT_caja As PictureBox
 End Class
