@@ -8,6 +8,7 @@ Module Module1
     Public porcentaje As Integer
     Public ultimo_producto As String
     Public venta_incompleta As Boolean = False
+    Public IDCliente_comprando As Integer = 0
 
     Function ActualizarProductosCB()
         Form2.CB_producto.Items.Clear()
@@ -91,6 +92,8 @@ Module Module1
 
         rd.Close()
         conn.Close()
+
+        EnlistarDatosVentasProductos(ID, Form2.TB_cantidad.Text, total_unitario)
         Form2.TB_id_producto.Text = ""
         RemoverInventario(ID, Form2.TB_cantidad.Text)
     End Function
@@ -151,6 +154,7 @@ Module Module1
 
     Function LimpiarCliente()
         porcentaje = 0
+        IDCliente_comprando = 0
         Form2.CB_cliente.SelectedItem = Nothing
         Form2.TB_id_cliente.Text = ""
         Form2.LB_descuento.Text = ""
@@ -176,6 +180,7 @@ Module Module1
         rd = cmd.ExecuteReader
 
         While rd.Read
+            IDCliente_comprando = rd.GetString("IDCliente")
             nombre = rd.GetString("Nombre")
             porcentaje = rd.GetString("Descuento")
         End While

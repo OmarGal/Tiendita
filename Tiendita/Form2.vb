@@ -118,9 +118,16 @@ Public Class Form2
         End If
 
         venta_incompleta = False
+        Dim fecha, hora As String
+        Dim fechahora As DateTime = DateTime.Now
         Dim thisDate, currentTime As Date
         thisDate = Today
         currentTime = TimeOfDay
+
+        fecha = fechahora.ToString("yyyy-MM-dd")
+        hora = fechahora.ToString("HH:mm:ss")
+
+        NuevaVenta(Module1.total, fecha, hora, IDUsuario_actual, IDCliente_comprando)
 
         ids.Clear()
         inventarios.Clear()

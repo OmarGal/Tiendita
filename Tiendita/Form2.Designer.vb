@@ -46,9 +46,15 @@ Partial Class Form2
         BT_cliente_agregar = New Button()
         BT_cliente_remover = New Button()
         BT_cambiarUsuario = New PictureBox()
+        BT_ventas = New PictureBox()
+        BT_inv = New PictureBox()
+        BT_caja = New PictureBox()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(tabla, ComponentModel.ISupportInitialize).BeginInit()
         CType(BT_cambiarUsuario, ComponentModel.ISupportInitialize).BeginInit()
+        CType(BT_ventas, ComponentModel.ISupportInitialize).BeginInit()
+        CType(BT_inv, ComponentModel.ISupportInitialize).BeginInit()
+        CType(BT_caja, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' PictureBox1
@@ -296,12 +302,48 @@ Partial Class Form2
         BT_cambiarUsuario.TabIndex = 27
         BT_cambiarUsuario.TabStop = False
         ' 
+        ' BT_ventas
+        ' 
+        BT_ventas.BackColor = Color.White
+        BT_ventas.Image = CType(resources.GetObject("BT_ventas.Image"), Image)
+        BT_ventas.Location = New Point(203, 421)
+        BT_ventas.Name = "BT_ventas"
+        BT_ventas.Size = New Size(74, 22)
+        BT_ventas.SizeMode = PictureBoxSizeMode.StretchImage
+        BT_ventas.TabIndex = 41
+        BT_ventas.TabStop = False
+        ' 
+        ' BT_inv
+        ' 
+        BT_inv.BackColor = Color.White
+        BT_inv.Image = CType(resources.GetObject("BT_inv.Image"), Image)
+        BT_inv.Location = New Point(106, 421)
+        BT_inv.Name = "BT_inv"
+        BT_inv.Size = New Size(91, 22)
+        BT_inv.SizeMode = PictureBoxSizeMode.StretchImage
+        BT_inv.TabIndex = 40
+        BT_inv.TabStop = False
+        ' 
+        ' BT_caja
+        ' 
+        BT_caja.BackColor = Color.White
+        BT_caja.Image = CType(resources.GetObject("BT_caja.Image"), Image)
+        BT_caja.Location = New Point(26, 421)
+        BT_caja.Name = "BT_caja"
+        BT_caja.Size = New Size(74, 22)
+        BT_caja.SizeMode = PictureBoxSizeMode.StretchImage
+        BT_caja.TabIndex = 39
+        BT_caja.TabStop = False
+        ' 
         ' Form2
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.White
         ClientSize = New Size(800, 450)
+        Controls.Add(BT_ventas)
+        Controls.Add(BT_inv)
+        Controls.Add(BT_caja)
         Controls.Add(BT_cambiarUsuario)
         Controls.Add(BT_cliente_remover)
         Controls.Add(BT_cliente_agregar)
@@ -328,6 +370,9 @@ Partial Class Form2
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(tabla, ComponentModel.ISupportInitialize).EndInit()
         CType(BT_cambiarUsuario, ComponentModel.ISupportInitialize).EndInit()
+        CType(BT_ventas, ComponentModel.ISupportInitialize).EndInit()
+        CType(BT_inv, ComponentModel.ISupportInitialize).EndInit()
+        CType(BT_caja, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -355,4 +400,7 @@ Partial Class Form2
     Friend WithEvents BT_cliente_agregar As Button
     Friend WithEvents BT_cliente_remover As Button
     Friend WithEvents BT_cambiarUsuario As PictureBox
+    Friend WithEvents BT_ventas As PictureBox
+    Friend WithEvents BT_inv As PictureBox
+    Friend WithEvents BT_caja As PictureBox
 End Class

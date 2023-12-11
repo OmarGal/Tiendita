@@ -36,10 +36,17 @@ Partial Class Form4
         BT_añadir = New Button()
         BT_quitar = New Button()
         TB_id_producto = New TextBox()
+        BT_caja = New PictureBox()
+        BT_inv = New PictureBox()
+        BT_ventas = New PictureBox()
+        LB_usuario = New Label()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(BT_cambiarUsuario, ComponentModel.ISupportInitialize).BeginInit()
         CType(DG_inventario, ComponentModel.ISupportInitialize).BeginInit()
         CType(DG_historial, ComponentModel.ISupportInitialize).BeginInit()
+        CType(BT_caja, ComponentModel.ISupportInitialize).BeginInit()
+        CType(BT_inv, ComponentModel.ISupportInitialize).BeginInit()
+        CType(BT_ventas, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' PictureBox1
@@ -66,7 +73,7 @@ Partial Class Form4
         ' DG_inventario
         ' 
         DG_inventario.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        DG_inventario.Location = New Point(26, 190)
+        DG_inventario.Location = New Point(26, 182)
         DG_inventario.Name = "DG_inventario"
         DG_inventario.ReadOnly = True
         DG_inventario.RowHeadersVisible = False
@@ -79,7 +86,7 @@ Partial Class Form4
         ' 
         DG_historial.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
         DG_historial.Columns.AddRange(New DataGridViewColumn() {ID, Producto, Cambio, Inventario})
-        DG_historial.Location = New Point(518, 190)
+        DG_historial.Location = New Point(518, 182)
         DG_historial.Name = "DG_historial"
         DG_historial.ReadOnly = True
         DG_historial.RowHeadersVisible = False
@@ -91,24 +98,28 @@ Partial Class Form4
         ' 
         ID.HeaderText = "ID"
         ID.Name = "ID"
+        ID.ReadOnly = True
         ID.Width = 35
         ' 
         ' Producto
         ' 
         Producto.HeaderText = "Producto"
         Producto.Name = "Producto"
+        Producto.ReadOnly = True
         Producto.Width = 85
         ' 
         ' Cambio
         ' 
         Cambio.HeaderText = "Cambio"
         Cambio.Name = "Cambio"
+        Cambio.ReadOnly = True
         Cambio.Width = 55
         ' 
         ' Inventario
         ' 
         Inventario.HeaderText = "Inventario"
         Inventario.Name = "Inventario"
+        Inventario.ReadOnly = True
         Inventario.Width = 70
         ' 
         ' CB_producto
@@ -169,11 +180,59 @@ Partial Class Form4
         TB_id_producto.TabIndex = 35
         TB_id_producto.TextAlign = HorizontalAlignment.Center
         ' 
+        ' BT_caja
+        ' 
+        BT_caja.BackColor = Color.White
+        BT_caja.Image = CType(resources.GetObject("BT_caja.Image"), Image)
+        BT_caja.Location = New Point(26, 421)
+        BT_caja.Name = "BT_caja"
+        BT_caja.Size = New Size(74, 22)
+        BT_caja.SizeMode = PictureBoxSizeMode.StretchImage
+        BT_caja.TabIndex = 36
+        BT_caja.TabStop = False
+        ' 
+        ' BT_inv
+        ' 
+        BT_inv.BackColor = Color.White
+        BT_inv.Image = CType(resources.GetObject("BT_inv.Image"), Image)
+        BT_inv.Location = New Point(106, 421)
+        BT_inv.Name = "BT_inv"
+        BT_inv.Size = New Size(91, 22)
+        BT_inv.SizeMode = PictureBoxSizeMode.StretchImage
+        BT_inv.TabIndex = 37
+        BT_inv.TabStop = False
+        ' 
+        ' BT_ventas
+        ' 
+        BT_ventas.BackColor = Color.White
+        BT_ventas.Image = CType(resources.GetObject("BT_ventas.Image"), Image)
+        BT_ventas.Location = New Point(203, 421)
+        BT_ventas.Name = "BT_ventas"
+        BT_ventas.Size = New Size(74, 22)
+        BT_ventas.SizeMode = PictureBoxSizeMode.StretchImage
+        BT_ventas.TabIndex = 38
+        BT_ventas.TabStop = False
+        ' 
+        ' LB_usuario
+        ' 
+        LB_usuario.BackColor = Color.FromArgb(CByte(0), CByte(74), CByte(173))
+        LB_usuario.ForeColor = Color.White
+        LB_usuario.Location = New Point(537, 15)
+        LB_usuario.Name = "LB_usuario"
+        LB_usuario.Size = New Size(183, 24)
+        LB_usuario.TabIndex = 39
+        LB_usuario.Text = "Cajero"
+        LB_usuario.TextAlign = ContentAlignment.MiddleLeft
+        ' 
         ' Form4
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(LB_usuario)
+        Controls.Add(BT_ventas)
+        Controls.Add(BT_inv)
+        Controls.Add(BT_caja)
         Controls.Add(TB_id_producto)
         Controls.Add(BT_quitar)
         Controls.Add(BT_añadir)
@@ -183,12 +242,17 @@ Partial Class Form4
         Controls.Add(DG_inventario)
         Controls.Add(BT_cambiarUsuario)
         Controls.Add(PictureBox1)
+        Icon = CType(resources.GetObject("$this.Icon"), Icon)
         Name = "Form4"
-        Text = "Form4"
+        StartPosition = FormStartPosition.CenterScreen
+        Text = "Inventario"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(BT_cambiarUsuario, ComponentModel.ISupportInitialize).EndInit()
         CType(DG_inventario, ComponentModel.ISupportInitialize).EndInit()
         CType(DG_historial, ComponentModel.ISupportInitialize).EndInit()
+        CType(BT_caja, ComponentModel.ISupportInitialize).EndInit()
+        CType(BT_inv, ComponentModel.ISupportInitialize).EndInit()
+        CType(BT_ventas, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -206,4 +270,8 @@ Partial Class Form4
     Friend WithEvents Producto As DataGridViewTextBoxColumn
     Friend WithEvents Cambio As DataGridViewTextBoxColumn
     Friend WithEvents Inventario As DataGridViewTextBoxColumn
+    Friend WithEvents BT_caja As PictureBox
+    Friend WithEvents BT_inv As PictureBox
+    Friend WithEvents BT_ventas As PictureBox
+    Friend WithEvents LB_usuario As Label
 End Class

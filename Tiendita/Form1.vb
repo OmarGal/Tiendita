@@ -4,17 +4,17 @@ Imports System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar
 
 Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        ActualizarUsuariosCB()
 
         TB_usuario.Text = "Cajero1"
-        TB_contra.Text = "1234"
-        Form4.Show()
+        TB_contra.Text = "0000"
+        Form5.Show()
+        ' FormatoFechayHora()
 
     End Sub
 
     Private Sub BT_aceptar_Click(sender As Object, e As EventArgs) Handles BT_aceptar.Click
-        If Val(TB_contra.Text = LB_contra.Text) Then
-            Form2.LB_usuario.Text = TB_usuario.Text
-            Form2.LB_usuario.ForeColor = Color.White
+        If Val(ContrasenaCorrecta() = True) Then
             Form2.Show()
             Me.Hide()
         Else

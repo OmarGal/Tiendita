@@ -29,6 +29,7 @@ Partial Class Form1
         LB_contra = New Label()
         BT_cerrar = New Button()
         PictureBox1 = New PictureBox()
+        CB_usuario = New ComboBox()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -97,6 +98,14 @@ Partial Class Form1
         PictureBox1.TabIndex = 13
         PictureBox1.TabStop = False
         ' 
+        ' CB_usuario
+        ' 
+        CB_usuario.FormattingEnabled = True
+        CB_usuario.Location = New Point(83, 340)
+        CB_usuario.Name = "CB_usuario"
+        CB_usuario.Size = New Size(142, 23)
+        CB_usuario.TabIndex = 14
+        ' 
         ' Form1
         ' 
         AcceptButton = BT_aceptar
@@ -104,6 +113,7 @@ Partial Class Form1
         BackColor = SystemColors.Control
         BackgroundImageLayout = ImageLayout.Zoom
         ClientSize = New Size(306, 561)
+        Controls.Add(CB_usuario)
         Controls.Add(BT_cerrar)
         Controls.Add(LB_contra)
         Controls.Add(BT_aceptar)
@@ -127,4 +137,5 @@ Partial Class Form1
     Friend WithEvents LB_contra As Label
     Friend WithEvents BT_cerrar As Button
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents CB_usuario As ComboBox
 End Class
