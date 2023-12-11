@@ -7,11 +7,11 @@ ColWidths_connform.ListSessions<|||>1<|||>125,79,50,50,50,50,22
 ColsVisible_connform.ListSessions<|||>1<|||>0,1,4,6
 ColPositions_connform.ListSessions<|||>1<|||>0,1,2,3,4,5,6
 ColSort_connform.ListSessions<|||>1<|||>0,0
-ColWidths_frmTableEditor.listColumns<|||>1<|||>25,142,154,90,60,65,50,117,130,140,100,100
+ColWidths_frmTableEditor.listColumns<|||>1<|||>42,142,154,90,60,65,50,117,130,140,100,100
 ColsVisible_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
 ColPositions_frmTableEditor.listColumns<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11
 ColSort_frmTableEditor.listColumns<|||>1<|||>-1,0
-ColWidths_frmTableEditor.treeIndexes<|||>1<|||>311,100,80,120
+ColWidths_frmTableEditor.treeIndexes<|||>1<|||>691,100,80,120
 ColsVisible_frmTableEditor.treeIndexes<|||>1<|||>0,1,2,3
 ColPositions_frmTableEditor.treeIndexes<|||>1<|||>0,1,2,3
 ColSort_frmTableEditor.treeIndexes<|||>1<|||>-1,0
@@ -51,11 +51,11 @@ ColPositions_MainForm.ListTables<|||>1<|||>0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
 ColSort_MainForm.ListTables<|||>1<|||>0,0
 CreateDbCollation<|||>1<|||>armscii8_general_ci
 querymemoheight<|||>3<|||>293
-DateTimeEditor_CursorPos_Type4<|||>3<|||>8
+DateTimeEditor_CursorPos_Type4<|||>3<|||>9
 SessionManager_ListWidth<|||>3<|||>280
 sqloutheight<|||>3<|||>107
-FontSize<|||>3<|||>10
-DataFontSize<|||>3<|||>15
+FontSize<|||>3<|||>14
+DataFontSize<|||>3<|||>16
 ThemePreviewWidth<|||>3<|||>501
 ThemePreviewHeight<|||>3<|||>296
 ThemePreviewTop<|||>3<|||>268
@@ -128,9 +128,13 @@ FieldColor_Datetime<|||>3<|||>7566281
 FieldColor_Spatial<|||>3<|||>13553267
 FieldColor_Other<|||>3<|||>7586241
 FieldEditor_Set<|||>3<|||>1
-SQLFile0<|||>1<|||>C:\Users\omar\Desktop\Heidi\Backups\query-tab-2023-10-23_17-38-08-352.sql
 MemoEditorWidth<|||>3<|||>501
 MemoEditorHeight<|||>3<|||>201
+ExportSQL_CreateDatabases<|||>3<|||>1
+ExportSQL_CreateTables<|||>3<|||>1
+ExportSQL_DataHow<|||>3<|||>2
+ExportSQL_Filenames<|||>1<|||>C:\Users\omar\Desktop\rayito.sql<{{{><}}}>
+SQLFile0<|||>1<|||>C:\Users\omar\Desktop\Heidi\Backups\query-tab-2023-10-23_17-38-08-352.sql
 Servers\Proyecto\SessionCreated<|||>1<|||>2023-10-23 17:30:54
 Servers\Proyecto\Host<|||>1<|||>127.0.0.1
 Servers\Proyecto\WindowsAuth<|||>3<|||>0
@@ -223,21 +227,22 @@ Servers\Rayito\LogFileDdl<|||>3<|||>0
 Servers\Rayito\LogFileDml<|||>3<|||>0
 Servers\Rayito\LogFilePath<|||>1<|||>C:\Users\omar\AppData\Roaming\HeidiSQL\Logs\%session\%db\%y%m%d.sql
 Servers\Rayito\ServerVersionFull<|||>1<|||>8.1.0 - MySQL Community Server - GPL
-Servers\Rayito\ConnectCount<|||>3<|||>18
+Servers\Rayito\ConnectCount<|||>3<|||>20
 Servers\Rayito\ServerVersion<|||>3<|||>80100
-Servers\Rayito\LastConnect<|||>1<|||>2023-11-28 16:22:02
+Servers\Rayito\LastConnect<|||>1<|||>2023-12-09 18:25:48
 Servers\Rayito\lastUsedDB<|||>1<|||>rayito
-Servers\Rayito\RefusedCount<|||>3<|||>8
+Servers\Rayito\RefusedCount<|||>3<|||>11
 Servers\Rayito\autos|autos\Sort<|||>1<|||>0_IDAuto|
-Servers\Rayito\QueryHistory\1<|||>1<|||>2023-10-30 18:22:45|autos|0|INSERT INTO `autos`.`clientes` (`Nombre`, `RFC`, `Tel`) VALUES ('Blanca', 'ffsdf88948', '223546156');<{{{><}}}>INSERT INTO `autos`.`clientes` (`Nombre`, `RFC`, `Tel`) VALUES ('Carlos', 'sdfsd564', '22949169');<{{{><}}}>INSERT INTO `autos`.`clientes` (`Nombre`, `RFC`, `Tel`) VALUES ('Dana', 'gjchyf56', '2216513');<{{{><}}}>INSERT INTO `autos`.`clientes` (`Nombre`, `RFC`, `Tel`) VALUES ('Ernesto', 'arfweg5tr5', '22156156');<{{{><}}}>INSERT INTO `autos`.`clientes` (`Nombre`, `RFC`, `Tel`) VALUES ('Fiona', 'ergge4g5', '22996328');
-Servers\Rayito\QueryHistory\2<|||>1<|||>2023-10-30 18:32:10|autos|16|INSERT INTO `autos`.`rentas` (`FechaI`, `IDAuto`, `IDCliente`, `FechaF`) VALUES ('2023-05-15', 1, 2, '2023-05-30');<{{{><}}}>INSERT INTO `autos`.`rentas` (`FechaI`, `IDAuto`, `IDCliente`, `FechaF`) VALUES ('2023-02-06', 4, 1, '2023-02-20');<{{{><}}}>INSERT INTO `autos`.`rentas` (`FechaI`, `IDAuto`, `IDCliente`, `FechaF`) VALUES ('2023-03-30', 3, 5, '2023-04-06');<{{{><}}}>INSERT INTO `autos`.`rentas` (`FechaI`, `IDAuto`, `IDCliente`, `FechaF`) VALUES ('2023-07-10', 2, 4, '2023-07-19');
-Servers\Rayito\QueryHistory\4<|||>1<|||>2023-10-30 18:40:39|autos|0|SELECT A.IDAuto,A.Modelo,C.IDClientes,C.Nombre FROM autos A, clientes C WHERE A.IDAuto=IDAuto AND C.IDClientes=IDClientes
-Servers\Rayito\QueryHistory\5<|||>1<|||>2023-10-30 18:47:56|autos|0|SELECT A.IDAuto,A.Modelo,C.IDClientes,C.Nombre,R.FechaI, R.FechaF FROM autos A, clientes C, rentas R WHERE A.IDAuto=R.IDAuto AND C.IDClientes=R.IDClientes
-Servers\Rayito\QueryHistory\3<|||>1<|||>2023-10-31 11:26:52|rayito|0|INSERT INTO `rayito`.`clientes` (`IDCliente`, `Nombre`, `Descuento`) VALUES (2, 'Carolina Aguirre', 8);<{{{><}}}>INSERT INTO `rayito`.`clientes` (`IDCliente`, `Nombre`, `Descuento`) VALUES (3, 'Aurora Rivera', 15);<{{{><}}}>INSERT INTO `rayito`.`clientes` (`IDCliente`, `Nombre`, `Descuento`) VALUES (4, 'Roberto Pavon', 10);<{{{><}}}>INSERT INTO `rayito`.`clientes` (`IDCliente`, `Nombre`, `Descuento`) VALUES (5, 'Enrique Martinez', 20);
-Servers\Rayito\QueryHistory\6<|||>1<|||>2023-11-01 13:31:41|rayito|0|SELECT Producto FROM `rayito`.`productos`
-Servers\Rayito\QueryHistory\8<|||>1<|||>2023-11-01 13:33:02|rayito|16|SELECT Producto FROM `rayito`.`productos` WHERE Inventario>0
-Servers\Rayito\QueryHistory\7<|||>1<|||>2023-11-01 16:02:26|rayito|0|SELECT `IDProducto`, `Producto`, `Precio`, `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;
-Servers\Rayito\QueryHistory\9<|||>1<|||>2023-11-01 16:02:38|rayito|0|SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;
-Servers\Rayito\QueryHistory\11<|||>1<|||>2023-11-01 18:04:38|rayito|0|SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;<{{{><}}}>UPDATE `rayito`.`productos` SET Inventario=Inventario-1 WHERE  `IDProducto`=1;<{{{><}}}>SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;<{{{><}}}>UPDATE `rayito`.`productos` SET Inventario=5 WHERE `IDProducto`=1;
-Servers\Rayito\QueryHistory\12<|||>1<|||>2023-11-01 18:04:55|rayito|0|SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;<{{{><}}}>UPDATE `rayito`.`productos` SET Inventario=Inventario-1 WHERE  `IDProducto`=1;<{{{><}}}>SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;<{{{><}}}>UPDATE `rayito`.`productos` SET Inventario=45 WHERE `IDProducto`=1;
-Servers\Rayito\QueryHistory\13<|||>1<|||>2023-11-01 18:04:58|rayito|0|SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;<{{{><}}}>UPDATE `rayito`.`productos` SET Inventario=Inventario-1 WHERE  `IDProducto`=1;<{{{><}}}>SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;
+Servers\Rayito\QueryHistory\10<|||>1<|||>2023-12-09 18:50:29|rayito|15|SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;<{{{><}}}>UPDATE `rayito`.`productos` SET Inventario=Inventario-1 WHERE  `IDProducto`=1;<{{{><}}}>SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1
+Servers\Rayito\QueryHistory\1<|||>1<|||>2023-12-09 18:50:47|rayito|0|SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;<{{{><}}}>UPDATE `rayito`.`productos` SET Inventario=Inventario-1 WHERE  `IDProducto`=1;<{{{><}}}>SELECT * FROM `rayito`.`productos` WHERE  `IDProducto`=1
+Servers\Rayito\QueryHistory\3<|||>1<|||>2023-12-09 18:51:07|rayito|0|SELECT `Inventario` FROM `rayito`.`productos` WHERE  `IDProducto`=1;<{{{><}}}>UPDATE `rayito`.`productos` SET Inventario=Inventario-1 WHERE  `IDProducto`=1;<{{{><}}}>SELECT * FROM `rayito`.`productos`
+Servers\Rayito\QueryHistory\2<|||>1<|||>2023-12-11 10:32:41|rayito|16|<{{{><}}}>SELECT * FROM `ventas` WHERE IDVenta=(SELECT MAX(IDVenta) FROM `ventas`);
+Servers\Rayito\QueryHistory\4<|||>1<|||>2023-12-11 10:33:00|rayito|0|<{{{><}}}>SELECT `IDVenta` FROM `ventas` WHERE IDVenta=(SELECT MAX(IDVenta) FROM `ventas`);
+Servers\Rayito\QueryHistory\5<|||>1<|||>2023-12-11 11:44:39|rayito|16|ALTER TABLE ventas AUTO_INCREMENT = 1
+Servers\Rayito\QueryHistory\6<|||>1<|||>2023-12-11 11:46:48|rayito|16|ALTER TABLE ventas AUTO_INCREMENT = 1;<{{{><}}}>ALTER TABLE ventasproductos AUTO_INCREMENT = 1
+Servers\Rayito\QueryHistory\8<|||>1<|||>2023-12-11 12:14:53|rayito|0|SELECT ventas.IDVenta, ventas.Fecha, ventas.Hora, clientes.Nombre, ventas.Total, usuarios.Nombre FROM ventas, clientes, usuarios WHERE ventas.IDCliente = clientes.IDCliente
+Servers\Rayito\QueryHistory\7<|||>1<|||>2023-12-11 12:18:47|rayito|15|SELECT ventas.IDVenta, ventas.Fecha, ventas.Hora, clientes.Nombre, ventas.Total, usuarios.Nombre FROM ventas, clientes, usuarios WHERE ventas.IDCliente = clientes.IDCliente AND ventas.IDUsuario = usuarios.IDUsuario
+Servers\Rayito\QueryHistory\11<|||>1<|||>2023-12-11 12:21:48|rayito|0|SELECT ventas.IDVenta, ventas.Fecha, ventas.Hora, clientes.Nombre AS Cliente, ventas.Total, usuarios.Nombre AS Cajero FROM ventas, clientes, usuarios WHERE ventas.IDCliente = clientes.IDCliente AND ventas.IDUsuario = usuarios.IDUsuario
+Servers\Rayito\QueryHistory\9<|||>1<|||>2023-12-11 12:28:55|rayito|0|SELECT ventas.IDVenta, ventas.Fecha, ventas.Hora, clientes.Nombre AS Cliente, ventas.Total, usuarios.Nombre AS Cajero FROM ventas, clientes, usuarios WHERE ventas.IDCliente = clientes.IDCliente AND ventas.IDUsuario = usuarios.IDUsuario;<{{{><}}}>
+Servers\Rayito\QueryHistory\12<|||>1<|||>2023-12-11 12:46:57|rayito|0|SELECT ventas.IDVenta, ventas.Fecha, ventas.Hora, clientes.Nombre AS Cliente, ventas.Total, usuarios.Nombre AS Cajero FROM ventas, clientes, usuarios WHERE ventas.IDCliente = clientes.IDCliente AND ventas.IDUsuario = usuarios.IDUsuario;<{{{><}}}>SELECT productos.IDProducto AS ID, productos.Producto, ventasproductos.Cantidad, ventasproductos.Subtotal FROM `rayito`.productos, `rayito`.ventasproductos WHERE ventasproductos.IDProducto = productos.IDProducto
+Servers\Rayito\QueryHistory\13<|||>1<|||>2023-12-11 13:49:44|rayito|0|SELECT ventas.IDVenta, ventas.Fecha, ventas.Hora, clientes.Nombre AS Cliente, ventas.Total, usuarios.Nombre AS Cajero FROM ventas, clientes, usuarios WHERE ventas.IDCliente = clientes.IDCliente AND ventas.IDUsuario = usuarios.IDUsuario;<{{{><}}}>SELECT productos.IDProducto AS ID, productos.Producto, ventasproductos.Cantidad, ventasproductos.Subtotal FROM `rayito`.productos, `rayito`.ventasproductos WHERE ventasproductos.IDProducto = productos.IDProducto;<{{{><}}}>SELECT productos.IDProducto AS ID, productos.Producto, ventasproductos.Cantidad, ventasproductos.Subtotal FROM `rayito`.productos, `rayito`.ventasproductos WHERE ventasproductos.IDProducto = productos.IDProducto AND ventasproductos.IDVenta = 1
