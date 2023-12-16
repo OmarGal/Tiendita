@@ -6,9 +6,9 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         ActualizarUsuariosCB()
 
-        TB_usuario.Text = "Cajero1"
-        TB_contra.Text = "0000"
-        Form5.Show()
+        ' TB_usuario.Text = "Cajero1"
+        ' TB_contra.Text = "0000"
+        ' Form5.Show()
         ' FormatoFechayHora()
 
     End Sub

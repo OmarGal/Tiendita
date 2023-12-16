@@ -77,6 +77,7 @@ Partial Class Form1
         LB_contra.Size = New Size(31, 15)
         LB_contra.TabIndex = 9
         LB_contra.Text = "1234"
+        LB_contra.Visible = False
         ' 
         ' BT_cerrar
         ' 
@@ -100,6 +101,9 @@ Partial Class Form1
         ' 
         ' CB_usuario
         ' 
+        CB_usuario.BackColor = Color.FromArgb(CByte(72), CByte(74), CByte(74))
+        CB_usuario.FlatStyle = FlatStyle.Flat
+        CB_usuario.ForeColor = Color.White
         CB_usuario.FormattingEnabled = True
         CB_usuario.Location = New Point(83, 340)
         CB_usuario.Name = "CB_usuario"

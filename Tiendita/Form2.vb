@@ -194,7 +194,17 @@ Public Class Form2
         AñadirDescuento()
     End Sub
 
-    Private Sub BT_cliente_remover_Click(sender As Object, e As EventArgs) Handles BT_cliente_remover.Click
-        LimpiarCliente()
+    Private Sub BT_caja_Click(sender As Object, e As EventArgs) Handles BT_caja.Click
+
+    End Sub
+
+    Private Sub BT_inv_Click(sender As Object, e As EventArgs) Handles BT_inv.Click
+        Me.Hide()
+        Form4.Show()
+    End Sub
+
+    Private Sub BT_ventas_Click(sender As Object, e As EventArgs) Handles BT_ventas.Click
+        Me.Hide()
+        Form5.Show()
     End Sub
 End Class

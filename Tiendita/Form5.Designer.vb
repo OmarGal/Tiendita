@@ -29,12 +29,15 @@ Partial Class Form5
         BT_ventas = New PictureBox()
         BT_inv = New PictureBox()
         BT_caja = New PictureBox()
+        BT_cambiarUsuario = New PictureBox()
+        LB_usuario = New Label()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(DG_ventas, ComponentModel.ISupportInitialize).BeginInit()
         CType(DG_ventasproductos, ComponentModel.ISupportInitialize).BeginInit()
         CType(BT_ventas, ComponentModel.ISupportInitialize).BeginInit()
         CType(BT_inv, ComponentModel.ISupportInitialize).BeginInit()
         CType(BT_caja, ComponentModel.ISupportInitialize).BeginInit()
+        CType(BT_cambiarUsuario, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' PictureBox1
@@ -102,11 +105,35 @@ Partial Class Form5
         BT_caja.TabIndex = 39
         BT_caja.TabStop = False
         ' 
+        ' BT_cambiarUsuario
+        ' 
+        BT_cambiarUsuario.BackColor = Color.FromArgb(CByte(82), CByte(113), CByte(255))
+        BT_cambiarUsuario.Image = CType(resources.GetObject("BT_cambiarUsuario.Image"), Image)
+        BT_cambiarUsuario.Location = New Point(1284, 12)
+        BT_cambiarUsuario.Name = "BT_cambiarUsuario"
+        BT_cambiarUsuario.Size = New Size(51, 49)
+        BT_cambiarUsuario.SizeMode = PictureBoxSizeMode.StretchImage
+        BT_cambiarUsuario.TabIndex = 42
+        BT_cambiarUsuario.TabStop = False
+        ' 
+        ' LB_usuario
+        ' 
+        LB_usuario.BackColor = Color.FromArgb(CByte(0), CByte(74), CByte(173))
+        LB_usuario.ForeColor = Color.White
+        LB_usuario.Location = New Point(939, 26)
+        LB_usuario.Name = "LB_usuario"
+        LB_usuario.Size = New Size(183, 24)
+        LB_usuario.TabIndex = 43
+        LB_usuario.Text = "Cajero"
+        LB_usuario.TextAlign = ContentAlignment.MiddleLeft
+        ' 
         ' Form5
         ' 
         AutoScaleMode = AutoScaleMode.None
         BackgroundImageLayout = ImageLayout.None
         ClientSize = New Size(1366, 705)
+        Controls.Add(LB_usuario)
+        Controls.Add(BT_cambiarUsuario)
         Controls.Add(BT_ventas)
         Controls.Add(BT_inv)
         Controls.Add(BT_caja)
@@ -125,6 +152,7 @@ Partial Class Form5
         CType(BT_ventas, ComponentModel.ISupportInitialize).EndInit()
         CType(BT_inv, ComponentModel.ISupportInitialize).EndInit()
         CType(BT_caja, ComponentModel.ISupportInitialize).EndInit()
+        CType(BT_cambiarUsuario, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -135,4 +163,6 @@ Partial Class Form5
     Friend WithEvents BT_ventas As PictureBox
     Friend WithEvents BT_inv As PictureBox
     Friend WithEvents BT_caja As PictureBox
+    Friend WithEvents BT_cambiarUsuario As PictureBox
+    Friend WithEvents LB_usuario As Label
 End Class

@@ -100,4 +100,33 @@
         switch = False
     End Sub
     ' 
+
+    Private Sub Form4_Closing(sender As Object, e As FormClosingEventArgs) Handles MyBase.FormClosing
+        If (venta_incompleta = True) Then
+            Select Case MsgBox("¿Seguro que quieres cancelar la venta actual?", MsgBoxStyle.YesNo, "Cerrar aplicacion")
+                Case MsgBoxResult.Yes
+                    AñadirInventario()
+                    End
+                Case MsgBoxResult.No
+                    e.Cancel = True
+            End Select
+        Else
+            End
+        End If
+    End Sub
+
+    Private Sub BT_caja_Click(sender As Object, e As EventArgs) Handles BT_caja.Click
+        Me.Hide()
+        Form2.Show()
+    End Sub
+
+    Private Sub BT_inv_Click(sender As Object, e As EventArgs) Handles BT_inv.Click
+
+    End Sub
+
+    Private Sub BT_ventas_Click(sender As Object, e As EventArgs) Handles BT_ventas.Click
+        Me.Hide()
+        Form5.Show()
+    End Sub
+
 End Class

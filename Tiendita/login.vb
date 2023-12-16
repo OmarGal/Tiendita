@@ -1,5 +1,6 @@
 ﻿Module login
     Public IDUsuario_actual As Integer
+    Public tipo_usuario As String
 
     Function ActualizarUsuariosCB()
         Form1.CB_usuario.Items.Clear()
@@ -32,6 +33,7 @@
 
             id = rd.GetString("IDUsuario")
             password = rd.GetString("Clave")
+            tipo_usuario = rd.GetString("Posicion")
 
         End While
 
@@ -41,6 +43,7 @@
         If (Form1.TB_contra.Text = password) Then
             IDUsuario_actual = id
             EstablecerUsuario()
+            TipoDeUsuario()
             Return True
         End If
 
@@ -49,6 +52,20 @@
     Function EstablecerUsuario()
         Form2.LB_usuario.Text = Form1.CB_usuario.Text
         Form4.LB_usuario.Text = Form1.CB_usuario.Text
+        Form5.LB_usuario.Text = Form1.CB_usuario.Text
+    End Function
+
+    Function TipoDeUsuario()
+        Select Case tipo_usuario
+            Case "caja"
+                Form2.BT_caja.Visible = False
+                Form2.BT_inv.Visible = False
+                Form2.BT_ventas.Visible = False
+            Case "admin"
+                Form2.BT_caja.Visible = True
+                Form2.BT_inv.Visible = True
+                Form2.BT_ventas.Visible = True
+        End Select
     End Function
 
 End Module
