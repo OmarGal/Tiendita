@@ -27,9 +27,9 @@ CREATE TABLE IF NOT EXISTS `clientes` (
   PRIMARY KEY (`IDCliente`)
 ) ENGINE=InnoDB DEFAULT CHARSET=armscii8;
 
--- Volcando datos para la tabla rayito.clientes: ~6 rows (aproximadamente)
+-- Volcando datos para la tabla rayito.clientes: ~5 rows (aproximadamente)
 INSERT INTO `clientes` (`IDCliente`, `Nombre`, `Descuento`) VALUES
-	(0, 'Sin registrar', 0),
+	(0, 'Publico General', 0),
 	(1, 'Carolina Aguirre', 5),
 	(2, 'Rocio Ruiz', 8),
 	(3, 'Aurora Rivera', 15),
@@ -47,13 +47,13 @@ CREATE TABLE IF NOT EXISTS `productos` (
 
 -- Volcando datos para la tabla rayito.productos: ~10 rows (aproximadamente)
 INSERT INTO `productos` (`IDProducto`, `Producto`, `Precio`, `Inventario`) VALUES
-	(1, 'Jabon', 27, 97),
+	(1, 'Jabon', 27, 186),
 	(2, 'Shampoo', 90, 84),
 	(3, 'Cereal', 70, 9),
 	(4, 'Miel', 68, 31),
-	(5, 'Desodorante', 32, 62),
+	(5, 'Desodorante', 32, 60),
 	(6, 'Yogurt', 35, 23),
-	(7, 'Papel', 47, 58),
+	(7, 'Papel', 47, 98),
 	(8, 'Atun', 24, 68),
 	(9, 'Pan', 52, 34),
 	(10, 'Mayonesa', 31, 21);
@@ -85,7 +85,7 @@ CREATE TABLE IF NOT EXISTS `ventas` (
   `IDUsuario` int DEFAULT NULL,
   `IDCliente` int DEFAULT NULL,
   PRIMARY KEY (`IDVenta`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=armscii8;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=armscii8;
 
 -- Volcando datos para la tabla rayito.ventas: ~5 rows (aproximadamente)
 INSERT INTO `ventas` (`IDVenta`, `Total`, `Fecha`, `Hora`, `IDUsuario`, `IDCliente`) VALUES
@@ -93,7 +93,10 @@ INSERT INTO `ventas` (`IDVenta`, `Total`, `Fecha`, `Hora`, `IDUsuario`, `IDClien
 	(2, 129.6, '2023-12-11', '11:48:43', 3, 4),
 	(3, 31, '2023-12-11', '11:48:57', 3, 0),
 	(4, 999, '2023-12-11', '12:21:36', 3, 0),
-	(5, 147.2, '2023-12-11', '18:49:19', 1, 2);
+	(5, 147.2, '2023-12-11', '18:49:19', 1, 2),
+	(6, 25.65, '2024-02-14', '18:27:23', 1, 1),
+	(7, 256.5, '2024-04-18', '17:37:40', 1, 1),
+	(8, 134.3, '2024-04-25', '17:36:42', 1, 3);
 
 -- Volcando estructura para tabla rayito.ventasproductos
 CREATE TABLE IF NOT EXISTS `ventasproductos` (
@@ -103,9 +106,9 @@ CREATE TABLE IF NOT EXISTS `ventasproductos` (
   `Subtotal` double DEFAULT NULL,
   `IDVenta` int DEFAULT NULL,
   PRIMARY KEY (`IDVentaProducto`)
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=armscii8;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=armscii8;
 
--- Volcando datos para la tabla rayito.ventasproductos: ~7 rows (aproximadamente)
+-- Volcando datos para la tabla rayito.ventasproductos: ~11 rows (aproximadamente)
 INSERT INTO `ventasproductos` (`IDVentaProducto`, `IDProducto`, `Cantidad`, `Subtotal`, `IDVenta`) VALUES
 	(1, 1, 2, 54, 1),
 	(2, 3, 1, 70, 1),
@@ -113,7 +116,11 @@ INSERT INTO `ventasproductos` (`IDVentaProducto`, `IDProducto`, `Cantidad`, `Sub
 	(4, 1, 2, 54, 2),
 	(5, 2, 1, 90, 2),
 	(6, 10, 1, 31, 3),
-	(7, 5, 5, 160, 5);
+	(7, 5, 5, 160, 5),
+	(8, 1, 1, 27, 6),
+	(9, 1, 10, 270, 7),
+	(10, 5, 2, 64, 8),
+	(11, 7, 2, 94, 8);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

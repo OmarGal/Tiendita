@@ -4,6 +4,7 @@
         ClientSize = New Size(Me.Width, Me.Height)
         ActualizarVentasDG()
         ActualizarVentasProductosDG()
+        ActualizarCategoriaFiltros()
     End Sub
 
     Private Sub Form5_Resize(sender As Object, e As EventArgs) Handles MyBase.Resize
@@ -71,5 +72,29 @@
                 LimpiarForm2()
             Case MsgBoxResult.No
         End Select
+    End Sub
+
+    Private Sub BT_aceptar_Click(sender As Object, e As EventArgs) Handles BT_aceptar.Click
+        FiltrarVentas()
+    End Sub
+
+    Private Sub BT_limpiar_Click(sender As Object, e As EventArgs) Handles BT_limpiar.Click
+        LimpiarFiltro()
+        ActualizarVentasDG()
+        ActualizarVentasProductosDG()
+    End Sub
+
+    Private Sub CB_categoria_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CB_categoria.SelectedIndexChanged
+        ActualizarDatosCB()
+    End Sub
+
+    Private Sub CK_fechas_CheckedChanged(sender As Object, e As EventArgs) Handles CK_fechas.CheckedChanged
+        If CK_fechas.Checked = True Then
+            DT_inicio.Enabled = True
+            DT_final.Enabled = True
+        Else
+            DT_inicio.Enabled = False
+            DT_final.Enabled = False
+        End If
     End Sub
 End Class
