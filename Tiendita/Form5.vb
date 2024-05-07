@@ -53,6 +53,8 @@
     Private Sub BT_caja_Click(sender As Object, e As EventArgs) Handles BT_caja.Click
         Me.Hide()
         Form2.Show()
+        Module1.ActualizarProductosCB()
+        Module1.ActualizarClientesCB()
     End Sub
 
     Private Sub BT_inv_Click(sender As Object, e As EventArgs) Handles BT_inv.Click
@@ -82,9 +84,11 @@
         LimpiarFiltro()
         ActualizarVentasDG()
         ActualizarVentasProductosDG()
+        CB_datos.Enabled = False
     End Sub
 
     Private Sub CB_categoria_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CB_categoria.SelectedIndexChanged
+        CB_datos.Enabled = True
         ActualizarDatosCB()
     End Sub
 
@@ -96,5 +100,9 @@
             DT_inicio.Enabled = False
             DT_final.Enabled = False
         End If
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
     End Sub
 End Class

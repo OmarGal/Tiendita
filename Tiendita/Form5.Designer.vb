@@ -165,11 +165,11 @@ Partial Class Form5
         Label2.AutoSize = True
         Label2.BackColor = Color.White
         Label2.Font = New Font("Open Sans", 11.25F, FontStyle.Regular, GraphicsUnit.Point)
-        Label2.Location = New Point(121, 156)
+        Label2.Location = New Point(101, 156)
         Label2.Name = "Label2"
-        Label2.Size = New Size(52, 22)
+        Label2.Size = New Size(71, 22)
         Label2.TabIndex = 46
-        Label2.Text = "Texto:"
+        Label2.Text = "Nombre:"
         Label2.TextAlign = ContentAlignment.MiddleRight
         ' 
         ' Label3
@@ -187,9 +187,7 @@ Partial Class Form5
         ' DT_inicio
         ' 
         DT_inicio.Enabled = False
-        ' DT_inicio.CustomFormat = "dd/mm/yyyy"
         DT_inicio.Format = DateTimePickerFormat.Short
-        ' DT_inicio.Format = DateTimePickerFormat.Custom
         DT_inicio.Location = New Point(188, 231)
         DT_inicio.Name = "DT_inicio"
         DT_inicio.Size = New Size(93, 23)
@@ -239,6 +237,7 @@ Partial Class Form5
         ' 
         CB_datos.BackColor = Color.FromArgb(CByte(224), CByte(224), CByte(224))
         CB_datos.DropDownStyle = ComboBoxStyle.DropDownList
+        CB_datos.Enabled = False
         CB_datos.FormattingEnabled = True
         CB_datos.Location = New Point(188, 156)
         CB_datos.Name = "CB_datos"

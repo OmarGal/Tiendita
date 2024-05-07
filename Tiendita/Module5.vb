@@ -35,7 +35,7 @@ Module Module5
     End Function
 
     Function FiltrarVentas()
-        If Form5.CB_datos.Text = "" Then
+        If Form5.CB_datos.Text = "" AND Form5.CK_fechas.Checked = False Then
             Exit Function
         End If
         Dim ID As Integer
@@ -48,6 +48,10 @@ Module Module5
 
         conn.Open()
         Select Case categoria
+            Case ""
+                cmd.CommandText = "SELECT * FROM `rayito`.`usuarios` WHERE Nombre='admin'"
+                campoID = "IDUsuario"
+                query_filtrar = "SELECT ventas.IDVenta, ventas.Fecha, ventas.Hora, clientes.Nombre AS Cliente, ventas.Total, usuarios.Nombre AS Cajero FROM ((`rayito`.ventas INNER JOIN `rayito`.clientes ON ventas.IDCliente = clientes.IDCliente) INNER JOIN `rayito`.usuarios ON ventas.IDUsuario = usuarios.IDUsuario) WHERE ventas.Fecha BETWEEN '$ini$' AND '$fin$';"
             Case "Cliente"
                 cmd.CommandText = "SELECT * FROM `rayito`.`clientes` WHERE Nombre='" & Form5.CB_datos.Text & "'"
                 campoID = "IDCliente"
