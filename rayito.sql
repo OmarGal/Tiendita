@@ -47,15 +47,15 @@ CREATE TABLE IF NOT EXISTS `productos` (
 
 -- Volcando datos para la tabla rayito.productos: ~10 rows (aproximadamente)
 INSERT INTO `productos` (`IDProducto`, `Producto`, `Precio`, `Inventario`) VALUES
-	(1, 'Jabon', 27, 186),
-	(2, 'Shampoo', 90, 84),
-	(3, 'Cereal', 70, 9),
+	(1, 'Jabon', 27, 386),
+	(2, 'Shampoo', 90, 83),
+	(3, 'Cereal', 70, 109),
 	(4, 'Miel', 68, 31),
 	(5, 'Desodorante', 32, 60),
 	(6, 'Yogurt', 35, 23),
-	(7, 'Papel', 47, 98),
-	(8, 'Atun', 24, 68),
-	(9, 'Pan', 52, 34),
+	(7, 'Papel', 47, 96),
+	(8, 'Atun', 24, 114),
+	(9, 'Pan', 52, 33),
 	(10, 'Mayonesa', 31, 21);
 
 -- Volcando estructura para tabla rayito.usuarios
